@@ -1,0 +1,89 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #011021;
+}
+
+#navbar{
+  background-color: #010a18;
+  color: #FFD60A;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+#navbar h1{
+  margin: 0;
+  padding-top: 10px;
+  font-family: 'Bangers', sans-serif;
+  font-size: 80px;
+}
+
+.main{
+  color: #d5d5d6;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: 'Walter Turncoat';
+}
+
+.score-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 450px;
+  padding: 10px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+#score-info{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+#score-msg{
+  margin-top: 0;
+  font-size: 25px;
+}
+
+.sign{
+  font-size: 70px;
+}
+
+.score-box{
+  font-size: 20px;
+}
+
+.options{
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.options button{
+  background-color: #02122b;
+  color: #d5d5d6;
+  font-family: 'Walter Turncoat';
+  font-size: 20px;
+  height: 200px;
+  width: 200px;
+  border: none;
+  border-radius: 6px;
+}
+
+.btn-icon{
+  font-size: 80px;
+}
+
+footer{
+  margin-top: 20px;
+  background-color: #010a18;
+  color: #d5d5d6;
+  font-size: 20px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+}

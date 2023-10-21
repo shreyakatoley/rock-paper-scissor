@@ -62,9 +62,11 @@ function game(){
   play(playerSelection, computerSelection);
 }
 
-for(let i = 0; i < 5; i++){
-  game();
-}
+game();
+
+// for(let i = 0; i < 5; i++){
+//   game();
+// }
 checkWinner(computerPoints,playerPoints);
 
 function checkWinner(computerPoints,playerPoints){

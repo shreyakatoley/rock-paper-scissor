@@ -3,10 +3,59 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
   <title>Rock Paper Scissors</title>
 </head>
 <body>
+  <nav id="navbar">
+    <h1 id="title">Rock Paper Scissors</h1>
+  </nav>
+  <main class="main">
+    <div class="scoreboeard">
+      <h2 id="score-info">Choose your option</h2>
+      <h3 id="score-msg">First to score 5 points wins</h3>
+    <div class="score-container">
+      <div class="score-box">
+        <div class="sign" id = "playerOption">❔</div>
+        <p class="score" id="playerScore">Player Points : 0</p>
+      </div>
+      <div class="score-box">
+        <div class="sign" id = "computerOption">❔</div>
+        <p class="score" id="computerScore">Computer Points : 0</p>
+      </div>
+    </div>
+  </div>
+    <div class="options">
+      <button id="rock">
+        <div class="btn-icon">✊</div>
+        <p>Rock</p>
+      </button>
+      <button id="paper">
+        <div class="btn-icon">🖐️</div>
+        <p>Paper</p>
+      </button>
+      <button id="scissors">
+        <div class="btn-icon">✌️</div>
+        <p>Scissors</p>
+      </button>
+    </div>
+  </main>
   
-  <script src="script.js"></script>
+  <footer>
+    <div class="footer-text">
+      <p>Copyright ©️ 2023 Shreya Katole</p>
+    </div>
+  </footer>
+  
+  <script src="script2.js"></script>
 </body>
 </html>
